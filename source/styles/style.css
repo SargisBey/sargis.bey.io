@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    /* background: linear-gradient(90deg, #0008ff 0%, #000000 100%); */
+    background: linear-gradient(90deg, #00ff55 0%, #021900 100%);
+    /* background: radial-gradient(#5055f2 0%, #000000 100%); */
+}
+
+p {
+    color: aquamarine;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    color: aquamarine;
+}
+
+
+.navbar-nav>.nav-item>.nav-link.active {
+    color: rgb(146, 146, 146);
+}
+
+
+.navbar-brand img {
+    width: 40px;
+}
+
+
+
+.navbar-toggler {
+    background-color: rgb(146, 146, 146);
+}
+
+
+
+.sidebar {
+    color: aquamarine;
+   /*  background: linear-gradient(270deg, #0008ff 0%, #000000 100%); */
+    background: linear-gradient(270deg, #00ff55 0%, #021900 100%);
+}
+
+.card {
+    /* background: linear-gradient(270deg, #0008ff 0%, #000000 100%); */
+    background: linear-gradient(270deg, #00ff55 0%, #021900 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-success {
+    /* background: linear-gradient(270deg, #0008ff 0%, #000000 100%); */
+    background: linear-gradient(270deg, #00ff55 0%, #021900 100%);
+}
+
+.footer-img {
+    width: 75px;
+    height: 75px;
+    margin-inline: 15px;
+}
+
+.footer-img1 {
+    width: 2.5em;
+    height: 1.5em;
+}
+
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width:750px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
